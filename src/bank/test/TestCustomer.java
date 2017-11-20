@@ -1,14 +1,14 @@
 package bank.test;
 
-import bank.Account;
+import bank.Account1;
 import bank.Customer;
-  
+
 /**
  * Created by $zhanyan on 2017/10/30.
  */
 public class TestCustomer {
     public static void main(String[] args) {
-        Account account = new Account(500);
+        Account1 account = new Account1(500);
         Customer Jane = new Customer("jane", "Smith");
         Jane.setAccount(account);
         Jane.getAccount().withdraw(150);

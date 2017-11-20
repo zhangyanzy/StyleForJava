@@ -7,8 +7,14 @@ public class PersonTest {
     public static void main(String[] args) {
         Person person = new Person();
         person.age = 12;
+        person.name = "花花";
         person.study();
-//        person.age
+        System.out.println("--------------------");
+        System.out.println(person.age + "&&" + person.name);
+        Person p1 = new Person();
+        System.out.println(p1.age + "&&" + p1  .name);
+        person.addAge(2);
+
     }
 }
 
